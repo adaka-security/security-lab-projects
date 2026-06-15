@@ -1,0 +1,82 @@
+[
+  {
+    "cve_id": "CVE-2024-3094",
+    "description": "Malicious code was discovered in the upstream tarballs of xz, starting with version 5.6.0. Through a series of complex obfuscations, the build process extracts a prebuilt object file from a disguised test file, which is then used to modify specific functions in the liblzma code, ultimately allowing an attacker with a specific Ed448 private key to execute remote code on the affected liblzma binary.",
+    "cvss_score": 10.0,
+    "severity": "CRITICAL",
+    "published": "2024-03-29T17:15:00.000",
+    "affected_products": ["cpe:2.3:a:tukaani:xz:5.6.0:*:*:*:*:*:*:*", "cpe:2.3:a:tukaani:xz:5.6.1:*:*:*:*:*:*:*"]
+  },
+  {
+    "cve_id": "CVE-2024-21413",
+    "description": "Microsoft Outlook Remote Code Execution Vulnerability. An attacker could exploit this by sending a specially crafted email that, when opened or previewed, allows the attacker to bypass the Office Protected View and open the document in editing mode rather than protected mode, leading to remote code execution.",
+    "cvss_score": 9.8,
+    "severity": "CRITICAL",
+    "published": "2024-02-13T18:15:00.000",
+    "affected_products": ["cpe:2.3:a:microsoft:outlook:2016:*:*:*:*:*:*:*", "cpe:2.3:a:microsoft:office:2019:*:*:*:*:*:*:*"]
+  },
+  {
+    "cve_id": "CVE-2024-23222",
+    "description": "A type confusion issue was addressed with improved checks. This issue is fixed in iOS 17.3 and iPadOS 17.3. An attacker may be able to execute arbitrary code by processing maliciously crafted web content in WebKit.",
+    "cvss_score": 8.8,
+    "severity": "HIGH",
+    "published": "2024-01-22T22:15:00.000",
+    "affected_products": ["cpe:2.3:o:apple:iphone_os:*:*:*:*:*:*:*:*", "cpe:2.3:o:apple:ipados:*:*:*:*:*:*:*:*"]
+  },
+  {
+    "cve_id": "CVE-2024-1709",
+    "description": "ConnectWise ScreenConnect 23.9.7 and prior is affected by an authentication bypass using an alternate path or channel vulnerability which may allow an attacker direct access to confidential information or critical systems.",
+    "cvss_score": 10.0,
+    "severity": "CRITICAL",
+    "published": "2024-02-21T03:15:00.000",
+    "affected_products": ["cpe:2.3:a:connectwise:screenconnect:23.9.7:*:*:*:*:*:*:*"]
+  },
+  {
+    "cve_id": "CVE-2024-27198",
+    "description": "In JetBrains TeamCity before 2023.11.4, authentication bypass allowing to perform admin actions was possible. An attacker could leverage this to gain administrative control over the TeamCity server.",
+    "cvss_score": 9.8,
+    "severity": "CRITICAL",
+    "published": "2024-03-04T15:15:00.000",
+    "affected_products": ["cpe:2.3:a:jetbrains:teamcity:*:*:*:*:*:*:*:*"]
+  },
+  {
+    "cve_id": "CVE-2024-3400",
+    "description": "A command injection vulnerability in the GlobalProtect feature of Palo Alto Networks PAN-OS software for specific PAN-OS versions and distinct feature configurations may enable an unauthenticated attacker to execute arbitrary code with root privileges on the firewall.",
+    "cvss_score": 10.0,
+    "severity": "CRITICAL",
+    "published": "2024-04-12T00:15:00.000",
+    "affected_products": ["cpe:2.3:o:paloaltonetworks:pan-os:11.1:*:*:*:*:*:*:*"]
+  },
+  {
+    "cve_id": "CVE-2023-22518",
+    "description": "All versions of Confluence Data Center and Server are vulnerable to improper authorization vulnerability which can lead to significant data loss if exploited by an unauthenticated attacker. An attacker could reset Confluence and create an administrator account.",
+    "cvss_score": 9.1,
+    "severity": "CRITICAL",
+    "published": "2023-10-31T20:15:00.000",
+    "affected_products": ["cpe:2.3:a:atlassian:confluence:*:*:*:*:*:*:*:*"]
+  },
+  {
+    "cve_id": "CVE-2024-21887",
+    "description": "A command injection vulnerability in web components of Ivanti Connect Secure and Ivanti Policy Secure allows an authenticated administrator to send specially crafted requests and execute arbitrary commands on the appliance.",
+    "cvss_score": 9.1,
+    "severity": "CRITICAL",
+    "published": "2024-01-10T17:15:00.000",
+    "affected_products": ["cpe:2.3:a:ivanti:connect_secure:*:*:*:*:*:*:*:*"]
+  },
+  {
+    "cve_id": "CVE-2024-29988",
+    "description": "SmartScreen Prompt Security Feature Bypass Vulnerability. This vulnerability allows an attacker to bypass Mark of the Web defenses via a malicious file, which could lead to a limited loss of integrity and availability of security features.",
+    "cvss_score": 8.8,
+    "severity": "HIGH",
+    "published": "2024-04-09T17:15:00.000",
+    "affected_products": ["cpe:2.3:o:microsoft:windows_11:*:*:*:*:*:*:*:*"]
+  },
+  {
+    "cve_id": "CVE-2024-4040",
+    "description": "CrushFTP before 11.1 allows attackers to escape the VFS and read files from the filesystem, including encrypted user passwords, via a crafted request, and then escalate to admin via session file injection.",
+    "cvss_score": 9.8,
+    "severity": "CRITICAL",
+    "published": "2024-04-23T18:15:00.000",
+    "affected_products": ["cpe:2.3:a:crushftp:crushftp:*:*:*:*:*:*:*:*"]
+  }
+]

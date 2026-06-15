@@ -1,0 +1,8 @@
+anthropic>=0.40.0
+chromadb>=1.0.0
+fastapi>=0.110.0
+uvicorn>=0.29.0
+requests>=2.31.0
+scikit-learn>=1.4.0
+numpy>=1.26.0
+pydantic>=2.0.0
